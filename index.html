@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0>
+    <title>Background Change</title>
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <span id="road"></span>
+
+    <div id="car">
+        <i class='fas fa-car-side'></i>
+    </div>
+    <div id="van">
+        <i class='fas fa-shuttle-van'></i>
+    </div>
+    <div id="truck">
+        <i class='fas fa-truck'></i>
+    </div>
+    <div id="pickup">
+        <i class='fas fa-truck-pickup'></i>
+    </div>
+    <div id="vehicle">
+        <button class="car1" id="car1"> <i class='fas fa-car-side' ></i></button><br>
+        <button class="van1" id="van1"><i class='fas fa-shuttle-van' ></i></button><br>
+        <button class="truck1" id="truck1"><i class='fas fa-truck' ></i></button><br>
+        <button class="pickup1" id="pickup1"><i class='fas fa-truck-pickup'></i></button>
+    </div>
+
+    <div id="btnpress">
+        <button class="btn1" id="btn1">Hill</button><br><br>
+        <button class="btn2" id="btn2">City</button><br><br>
+        <button class="btn3" id="btn3">Forest</button><br><br>
+        <button class="btn4" id="btn4">River</button><br><br>
+    </div>
+    <div id="color">
+        <button class="c10" id="c10" onclick="color10()"></button><br><br>
+        <button class="c20" id="c20" onclick="color20()"></button><br><br>
+        <button class="c30" id="c30" onclick="color30()"></button><br><br>
+        <button class="c40" id="c40" onclick="color40()"></button>
+    </div>
+    <div id="color1">
+        <button class="c11" id="c11" onclick="color11()"></button><br><br>
+        <button class="c21" id="c21" onclick="color21()"></button><br><br>
+        <button class="c31" id="c31" onclick="color31()"></button><br><br>
+        <button class="c41" id="c41" onclick="color41()"></button>
+    </div>
+    <div id="color2">
+        <button class="c12" id="c12" onclick="color12()"></button><br><br>
+        <button class="c22" id="c22" onclick="color22()"></button><br><br>
+        <button class="c32" id="c32" onclick="color32()"></button><br><br>
+        <button class="c42" id="c42" onclick="color42()"></button>
+    </div>
+    <div id="color3">
+        <button class="c13" id="c13" onclick="color13()"></button><br><br>
+        <button class="c23" id="c23" onclick="color23()"></button><br><br>
+        <button class="c33" id="c33" onclick="color33()"></button><br><br>
+        <button class="c43" id="c43" onclick="color43()"></button>
+    </div>
+    <div id="moving">
+        <marquee id="move" scrollamount="5">Pick up the Roadside...</marquee>
+    </div>
+    <div id="moving1">
+        <marquee id="move1" scrollamount="5">Pick up the Vehicle color...</marquee>
+    </div>
+    <div id="num">0</div><br>
+    <button class="minus" id="minus" onclick="minus()">-</button>
+    <button class="plus" id="plus" onclick="plus()">+</button>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

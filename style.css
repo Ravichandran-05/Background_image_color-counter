@@ -1,0 +1,461 @@
+body {
+    background-image: url('Hill Road.jpg');
+    background-repeat: no-repeat;
+    padding: 30px;
+    margin: 0 auto;
+    width: 170px;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#num {
+    background-color: black;
+    text-align: center;
+    font-size: large;
+    padding: 5px;
+    width: 55px;
+    height: 20px;
+    color: rgb(4, 183, 214);
+    margin-top: -100px;
+    margin-left: 4px;
+    outline-style: ridge;
+    outline-color: grey;
+    outline-width: 5px;
+}
+
+#plus {
+    background-color: green;
+    color: white;
+    width: 35px;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#minus {
+    background-color: red;
+    color: white;
+    width: 35px;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#car {
+    font-size: 128px;
+    color: blue;
+    position: relative;
+    animation-name: example;
+    animation-duration: 35s;
+}
+
+#van {
+    font-size: 128px;
+    color: rgb(138, 0, 0);
+    position: relative;
+    animation-name: example1;
+    animation-duration: 35s;
+}
+
+#truck {
+    font-size: 128px;
+    color: rgb(255, 82, 1);
+    position: relative;
+    animation-name: example2;
+    animation-duration: 35s;
+}
+
+#pickup {
+    font-size: 128px;
+    color: rgb(163, 12, 151);
+    position: relative;
+    animation-name: example3;
+    animation-duration: 35s;
+}
+
+@keyframes example {
+    0% {
+        left: -630px;
+        top: 350px;
+    }
+    100% {
+        left: 0px;
+        top: 350px;
+    }
+}
+
+@keyframes example1 {
+    0% {
+        left: -450px;
+        top: 200px;
+    }
+    80% {
+        left: 200px;
+        top: 200px;
+    }
+}
+
+@keyframes example2 {
+    0% {
+        left: -290px;
+        top: 125px;
+    }
+    60% {
+        left: 400px;
+        top: 125px;
+    }
+}
+
+@keyframes example3 {
+    0% {
+        left: -90px;
+        top: -10px;
+    }
+    40% {
+        left: 600px;
+        top: -10px;
+    }
+}
+
+#vehicle {
+    display: inline-block;
+    position: absolute;
+    top: -425px;
+    right: -530px;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 37px;
+    color: black;
+    position: relative;
+    background-blend-mode: screen;
+}
+
+#moving {
+    background-color: black;
+    padding: 3px;
+    margin-left: -575px;
+    margin-top: -670px;
+    color: yellow;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    behavior: scroll;
+    direction: left;
+    width: 80%;
+    outline-style: ridge;
+    outline-color: grey;
+    outline-width: 5px;
+}
+
+#moving1 {
+    background-color: black;
+    margin-left: 520px;
+    margin-top: -20px;
+    padding: 3px;
+    color: yellow;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    behavior: scroll;
+    direction: left;
+    width: 130%;
+    outline-style: ridge;
+    outline-color: grey;
+    outline-width: 5px;
+}
+
+#btnpress {
+    display: inline-block;
+    width: 30px;
+    height: 0px;
+    position: absolute;
+    top: 190px;
+    left: 20px;
+}
+
+#btnpress1 {
+    width: 30px;
+    height: 0px;
+    position: absolute;
+    top: 320px;
+    right: 55%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#btnpress2 {
+    width: 30px;
+    height: 0px;
+    position: absolute;
+    top: 320px;
+    left: 52%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn1 {
+    background-color: gray;
+    color: whitesmoke;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 3px;
+    width: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.btn1:hover {
+    background-color: rgb(23, 185, 226);
+    color: black;
+}
+
+.btn2 {
+    background-color: gray;
+    color: whitesmoke;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 3px;
+    width: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.btn2:hover {
+    background-color: rgb(23, 185, 226);
+    color: black;
+}
+
+.btn3 {
+    background-color: gray;
+    color: whitesmoke;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 3px;
+    width: 60px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.btn3:hover {
+    background-color: rgb(23, 185, 226);
+    color: black;
+}
+
+.btn4 {
+    background-color: gray;
+    color: whitesmoke;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 3px;
+    width: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.btn4:hover {
+    background-color: rgb(23, 185, 226);
+    color: black;
+}
+
+#color {
+    display: inline-block;
+    width: 30px;
+    height: 0px;
+    position: absolute;
+    top: 215px;
+    right: 120px;
+}
+
+.c10 {
+    background-color: blue;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.c20 {
+    background-color: blue;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.c30 {
+    background-color: blue;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.c40 {
+    background-color: blue;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#color1 {
+    display: inline-block;
+    width: 30px;
+    height: 0px;
+    position: absolute;
+    top: 215px;
+    right: 85px;
+}
+
+.c11 {
+    background-color: rgb(138, 0, 0);
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.c21 {
+    background-color: rgb(138, 0, 0);
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.c31 {
+    background-color: rgb(138, 0, 0);
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.c41 {
+    background-color: rgb(138, 0, 0);
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#color2 {
+    display: inline-block;
+    width: 30px;
+    height: 0px;
+    position: absolute;
+    top: 215px;
+    right: 50px;
+}
+
+.c12 {
+    background-color: rgb(255, 82, 1);
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.c22 {
+    background-color: rgb(255, 82, 1);
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.c32 {
+    background-color: rgb(255, 82, 1);
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.c42 {
+    background-color: rgb(255, 82, 1);
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#color3 {
+    display: inline-block;
+    width: 30px;
+    height: 0px;
+    position: absolute;
+    top: 215px;
+    right: 15px;
+}
+
+.c13 {
+    background-color: rgb(163, 12, 151);
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.c23 {
+    background-color: rgb(163, 12, 151);
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.c33 {
+    background-color: rgb(163, 12, 151);
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.c43 {
+    background-color: rgb(163, 12, 151);
+    border: 2px solid black;
+    display: inline-block;
+    padding: 9px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
