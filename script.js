@@ -3,19 +3,19 @@ let b2 = document.getElementById('btn2');
 let b3 = document.getElementById('btn3');
 let b4 = document.getElementById('btn4');
 b1.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('Hill Road.jpg')";
+    document.body.style.backgroundImage = "url('Hill Roadd.jpg')";
 })
 
 b2.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('city.jpg')";
+    document.body.style.backgroundImage = "url('cityy.jpg')";
 })
 
 b3.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('forest road.jpg')";
+    document.body.style.backgroundImage = "url('forest roadd.jpg')";
 })
 
 b4.addEventListener('click', () => {
-    document.body.style.backgroundImage = "url('river.jpg')";
+    document.body.style.backgroundImage = "url('riverr.jpg')";
 })
 
 function color10() {
